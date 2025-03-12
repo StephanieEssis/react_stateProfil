@@ -33,7 +33,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
+      <div className="App ">
         <h1>Profil de la Personne</h1>
         <button onClick={this.toggleShow}>
           {this.state.show ? "Masquer le profil" : "Afficher le profil"}
